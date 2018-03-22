@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>受付メール</value>
+    </caseValues>
+    <fields>
+        <label><!-- 工事案件 --></label>
+        <name>Construction__c</name>
+        <relationshipLabel><!-- 受付メール --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- 現場メンバー --></label>
+        <name>Member__c</name>
+        <relationshipLabel><!-- 受付メール --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- メール送信元 --></label>
+        <name>Source__c</name>
+    </fields>
+    <fields>
+        <label><!-- メール件名 --></label>
+        <name>Subject__c</name>
+    </fields>
+    <fields>
+        <label><!-- 工事案件番号 --></label>
+        <name>TargetJobNumber__c</name>
+    </fields>
+    <fields>
+        <help><!-- 数字（１～５）
+　１：見積提出
+　２：受注
+　３：施工着手
+　４：施工完了
+　５：請求書提出 --></help>
+        <label><!-- 工事ステータス番号 --></label>
+        <name>TargetJobStatus__c</name>
+    </fields>
+    <layouts>
+        <layout>受付メールレイアウト</layout>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- 更新処理 --></label>
+            <section>更新処理</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>
